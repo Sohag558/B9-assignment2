@@ -9,10 +9,20 @@
     font-weight: 700;
 }
 
+.praimary-btn {
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    border-style: none;
+    cursor: pointer;
+}
+
 
 header {
     max-width: 1140px;
-    padding-left: 6em;
+
 }
 
 /* nav code goes here */
@@ -28,6 +38,7 @@ header {
     justify-content: space-between;
     margin-right: 127px;
     gap: 10px;
+    padding-left: 6em;
 }
 
 .navbar {
@@ -62,4 +73,534 @@ header {
     font-size: 18px;
     font-weight: 400;
 }
+
 /* nav code ends */
+
+/* explore your travel styles */
+
+.explore-container {
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    max-width: 995px;
+    height: 500px;
+    margin-left: 3em;
+    border-radius: 16px;
+}
+
+.explore-titile h2 {
+    color: #FFF;
+    padding-top: 2rem;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.explore-titile p {
+    color: #3b3b3b;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.selector {
+    text-align: center;
+    padding-top: 2em;
+}
+
+#exampleSelect {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Our Popular Tours styles goes here  */
+
+
+.tour-titile {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 525px;
+}
+
+.tour-titile h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    padding-top: 3em;
+
+}
+
+/* Why Choose Us code goes here */
+
+.destination-titile {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 2em;
+}
+
+.destination-titile p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-item {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-container {
+    display: flex;
+    gap: 2em;
+    margin-left: 1em;
+    padding-top: 2em;
+}
+
+.card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+}
+
+.card-1 img {
+    width: 50px;
+    padding-left: 45%;
+    padding-top: 15px;
+}
+
+.card-1 h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+}
+
+.card-2 img {
+    width: 50px;
+    padding-left: 45%;
+    padding-top: 15px;
+}
+
+.card-2 h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    margin-top: 2em;
+    margin-left: 20em;
+}
+
+.card-3 img {
+    width: 50px;
+    padding-left: 45%;
+    padding-top: 15px;
+}
+
+.card-3 h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/* Deals & Discounts code goes here */
+
+.deal-titile h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-titile p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-deal {
+    margin-top: 3.5em;
+    margin-left: 2em;
+    background-image: url("../Images/Group\ 39.png");
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.card-content {
+    width: 579px;
+    height: 300px;
+    position: absolute;
+    margin-top: 5.5em;
+    padding-top: 1em;
+    padding-left: 2em;
+    margin-left: 31em;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.card-content h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-content h3 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.card-deal-1 {
+    margin-top: 3.5em;
+    margin-left: 2em;
+    background-image: url("../Images/Group\ 40.png");
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+}
+
+.card-content-1 {
+    width: 579px;
+    height: 300px;
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 4em;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.card-content-1 h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-content-1 p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-content-1 h3 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.praimary-btn-2 {
+    text-align: center;
+}
+
+.praimary-btn-2 button {
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF5400;
+    cursor: pointer;
+    border-style: none;
+    margin-top: 2em;
+}
+
+/* a simple perfect plae to get lost */
+.place-container {
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+.place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.place-titile h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.place-titile p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.place-titile ul li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.vdo-titile {
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    padding-left: 35em;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.video {
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+}
+
+/* Newsletter code here   */
+
+.news-container {
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+.news-titile {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 480px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-titile h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.news-titile p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.news-titile ul li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+#form {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    margin-top: 1.5em;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    font-size: 20px;
+    cursor: pointer;
+    border-style: none;
+}
+
+#btn {
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 1.5em;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.discound {
+    position: absolute;
+    margin-left: 61em;
+    margin-top: 11.5em;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+}
+
+.discound h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.discound h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* footer code here */
+footer {
+    margin-top: 5em;
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.footer-container h3 {
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.pra {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.icon-link {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.icon-link a {
+    padding-left: 2em;
+}
+
+.icon-link i {
+    font-size: 2.5em;
+    color: #131318;
+}
+
+.copy {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 5em;
+    text-align: center;
+}
