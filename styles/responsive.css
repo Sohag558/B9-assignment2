@@ -39,6 +39,64 @@
     .card-deal, 
     .card-deal-1{
       width: 718px;
+      /* padding: 0;
+      width: 0 auto; */
+    }
+    .card-content, 
+    .card-content-1{
+      margin-left: 10px;
+    }
+    .discound{
+      margin-left: 21em;
+      margin-top: 40.5em;
+    }
+    footer{
+      max-width: 714px;
+    }
+
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 717px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu.show {
+      display: flex;
+    }
+
+    .menu-icon {
+      display: block;
+    }
+    .selector{
+      flex-direction: column;
+      display: grid;
+      grid-template-columns: repeat(1fr);
+      gap: 10px;
+      justify-content: center;
+    }
+    .tour{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .card-container,
+    .place,
+    .news {
+      display: grid;
+      padding-top: 10px;
+      grid-template-columns: 1fr;
+    }
+    .card-3{
+      margin-left: 0;
+    }
+    .card-deal, 
+    .card-deal-1{
+      width: 718px;
     }
     .card-content, 
     .card-content-1{
