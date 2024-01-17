@@ -1,3 +1,5 @@
+/* responsive for pad or tab */
+
 @media screen and (max-width: 718px) {
     .menu {
       display: none;
@@ -55,6 +57,8 @@
     }
 
   }
+
+  /* responsive for  medium device */
 
   @media screen and (min-width: 500px) and (max-width: 717px) {
     .menu {
